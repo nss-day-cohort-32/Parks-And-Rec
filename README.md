@@ -16,7 +16,7 @@ Build an application using grunt to get data from the following API: https://raw
 
 ## Part Two
 1. For each of the national parks, use the latitude and longitude to get the weather.
-1. Use this API: https://blooming-mesa-53816.herokuapp.com/37.8267,-122.4233.   (subbing out the lat and lon coords in the url with your own)
+1. Use this API: https://darksky.net/dev.
 1. From the data coming back from the Dark Sky API, you are going to use `summary` listed under `currently`, `hourly` and `daily`. 
 
 Change your original html to look like this:
@@ -36,7 +36,7 @@ Change your original html to look like this:
 
 If you encounter CORS issues with the Dark Sky API, you can either get an extension for Chrome to work around it here:
 * https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc 
-* OR you can add this to the front of you URL: `https://cors-anywhere.herokuapp.com/`
+* OR you can use this url instead: ` https://blooming-mesa-53816.herokuapp.com/37.8267,-122.4233` (be sure to replace the lat and lon values in the url with your own)
 
 
 Dark Sky
